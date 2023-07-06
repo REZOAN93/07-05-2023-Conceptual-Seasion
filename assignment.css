@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  background-color: #424141;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.listitem {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+.item:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+}
+.banner-container {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./Digital-Product-b8-test-main//images/background.png),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+}
+.title {
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+}
+.description {
+  font-size: 18px;
+  margin-top: 15px;
+  color: white;
+}
+.btn {
+  margin-top: 20px;
+  background-color: red;
+  padding: 13px 20px;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  border: none;
+}
+.about {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 20px;
+}
+.about-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.aboutheading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.servicehead {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 70px;
+  color: white;
+}
+.service-container {
+  height: 100vh;
+  background-image: url(./Digital-Product-b8-test-main//images/background.png),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+}
+
+.box {
+  width: 200px;
+  height: 320px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 4px 2px 105px gray;
+}
+.boximg {
+  margin-bottom: 20px;
+}
+.boxheader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box-details {
+  font-size: 16px;
+  text-align: justify;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.btn-box {
+  border: none;
+  background-color: grey;
+  padding: 10px 19px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-box:hover {
+  background-color: goldenrod;
+  color: black;
+}
+.boxlist {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  width: 75%;
+  height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  border-bottom: 1px solid gray;
+}
+.footer-part {
+  width: 230px;
+}
+.descriptionfooter {
+  margin-top: 20px;
+  text-align: justify;
+}
+.headerlink {
+  margin-top: 10px;
+}
+.copyright {
+  background-color: black;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer-main{
+  background-color: black;
+  color: white;
+}
